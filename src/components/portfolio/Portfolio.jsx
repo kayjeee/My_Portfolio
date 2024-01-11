@@ -1,10 +1,10 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Flexcavo.png";
-import IMG2 from "../../assets/Meetnative.png";
-import IMG3 from "../../assets/Mobinspire.png";
-import IMG4 from "../../assets/Raise.png";
-import IMG5 from "../../assets/Potsave.png";
+import IMG1 from "../../assets/2024 pop music desktop.PNG";
+import IMG2 from "../../assets/doctors image.jfif";
+import IMG3 from "../../assets/budget app.png";
+import IMG4 from "../../assets/netmovies.png";
+import IMG5 from "../../assets/bookapp.PNG";
 import IMG6 from "../../assets/Health.png";
 import React from "react";
 
@@ -13,57 +13,63 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Flexcavo",
+      title: "Music Concert lovers",
       img: IMG1,
       description:
-        "It is the website for construction machine renting company (Flexcavo) from Berlin",
-      technologies: "React.js | Pixel-perfect | SCSS | Styled Component",
-      link: "https://www.flexcavo.de/",
+        "It is the website for a Music events company,for music lover to buy tickets",
+      technologies: "Javascript | CSS | SCSS | Styled Component",
+      link: "https://kayjeee.github.io/2024-Pop-concert/",
+      Sourcelink: "https://kayjeee.github.io/2024-Pop-concert",
     },
     {
       id: 2,
-      title: "Meet Native",
+      title: "Doctors appoinments",
       img: IMG2,
       description:
-        "MeetNative is an upselling platform that helps consumers and local businesses get more for their money.",
-      technologies: "React | React Native | Android | iOS",
-      link: "https://meetnative.com/",
+        "Doctors appoinments is an upselling platform that helps consumers get better more for their money.",
+      technologies: "React | Rails |",
+      link: "https://bookitnow-app.onrender.com/",
+      Sourcelink: "https://github.com/cosywasswa/BookItNow-front-end/",
     },
     {
       id: 3,
-      title: "Mob Inspire",
+      title: "Budget app",
       img: IMG3,
       description:
-        "Mob Inspire streamlines the business operations in corporate sector by providing cost-effective and highly productive software solutions.",
-      technologies: "Nginx | PHP | MySQL | jQuery",
-      link: "https://www.mobinspire.com/",
+        "Budget app streamlines your bank account helping you save and plan the operations in in daily life and is highly productive as a software solutions.",
+      technologies: "Rails | React",
+      link: "https://mybudgetapp-u04z.onrender.com/",
+      Sourcelink: "https://github.com/cosywasswa/BookItNow-front-end/",
     },
     {
       id: 4,
-      title: "Raise",
+      title: "Netmovies",
       img: IMG4,
       description:
-        "Get started with free educational courses to mastery the foundations of startup equity as an African business.",
+        "Netmovies is a local un funded platform for watching the movies good as a startup equity business.",
       technologies: "Remix | React.js | Webflow | jQuery",
-      link: "https://www.raise.africa/",
+      link: "https://kayjeee.github.io/Group-capstone/dist/",
+      Sourcelink: "https://github.com/kayjeee/Group-capstone/",
     },
     {
       id: 5,
-      title: "Potsave",
+      title: "Bookapp",
       img: IMG5,
       description:
-        "Through the PotSave.com platform, PotSave offers in-person product assessment and ordering services, accessible via the website, mobile applications, and software.",
-      technologies: "React | Next.js | Lodash | Tailwind CSS",
-      link: "https://dev-pwa.potsave.com/",
+        "Bookapp is a simple app for book lovers to keep track of the favourite books in a list.",
+      technologies: "React |  CSS",
+      link: "https://kayjeee.github.io/ES6bookswebsite-/",
+      Sourcelink: "https://github.com/kayjeee/ES6bookswebsite-/",
     },
     {
       id: 6,
-      title: "Health",
+      title: "Leaderboard",
       img: IMG6,
       description:
-        "U of U Health is the Mountain West's only academic health care system. We provide patient care, medical research, and physician training.",
-      technologies: "Angular | Drupal | Nginx | TypeScript",
-      link: "https://healthcare.utah.edu/",
+        "A place wher gamers can beat and brag by placing their score on a board.",
+      technologies: "Javascript | Html ",
+      link: "https://kayjeee.github.io/webpack-todolist//",
+      Sourcelink: "https://github.com/kayjeee/leaderboard-v2/",
     },
   ];
 
@@ -91,6 +97,14 @@ const Portfolio = () => {
                 rel="noreferrer"
               >
                 Live Demo
+              </a>
+              <a
+                href={pro.link}
+                target="_blank"
+                className="btn btn-primary"
+                rel="noreferrer"
+              >
+                Source Code
               </a>
             </div>
           </article>
