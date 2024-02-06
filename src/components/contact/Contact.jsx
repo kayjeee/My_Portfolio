@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact">
       <h5>Get In Touch</h5>
       <h5>
-        I do receive your messages and will respond asap if the valid email is
+        I do receive your messages and will respond ASAP if the valid email is
         provided :)
       </h5>
       <h2>Contact Me</h2>
@@ -21,8 +21,8 @@ const Contact = () => {
               <MdLocationCity className="contact__option-icon" />
             </div>
             <div className="contact__option-children">
-              <h5>topdev39@gmail.com</h5>
-              <h5>Davao, Philippines</h5>
+              <h5>kagiso.killagram@gmail.com</h5>
+              <h5>Randburg, Northgate,barcelona 1</h5>
             </div>
           </article>
         </div>
